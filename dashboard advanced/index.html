@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <aside>
+        <div class="top">
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <h2>EGA<span>TOR</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="#">
+                <span class="material-icons-sharp">dashboard</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#" class="active">
+                <span class="material-icons-sharp">people</span>
+                <h3>Customers</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">receipt_long</span>
+                <h3>Orders</h3>
+
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">insights</span>
+                <h3>Analytics</h3>
+            </a>
+            
+            <a href="#">
+                <span class="material-icons-sharp">email</span>
+                <h3>Messages</h3>
+                <span class="message-count">26</span>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">inventory</span>
+                <h3>Products</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">report</span>
+                <h3>Roports</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">settings</span>
+                <h3>Settings</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">add</span>
+                <h3>Add Product</h3>
+            </a>
+            <a href="#" id="last">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+
+            </a>
+        </div>
+    </aside>
+    <main>
+        <h1>Dashboard</h1>
+        <div class="data">
+            <input type="date">
+        </div>
+        <div class="insights">
+            <div class="sales">
+                <span class="material-icons-sharp">analytics</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Totale sales</h3>
+                    <h1>$25.024</h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle cx='41' cy='41' r='37'></circle>  
+                    </svg>
+                    <div class="number">
+                        <p>81%</p>
+                    </div>
+                </div>
+            </div>
+            <small class="text-muted"></small>
+        </div>
+        <!-----END OF SALE------->
+        
+            <div class="expenses">
+                <span class="material-icons-sharp">bar_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Totale Expenses</h3>
+                    <h1>$14.160</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='41' cy='41' r='37'></circle>  
+                        </svg>
+                        <div class="number">
+                        <p>62%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted"></small>
+            </div>
+            <!-----END OF expenses------->
+            <div class="Incomes">
+                <span class="material-icons-sharp">stacked_line_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Totale Incomes</h3>
+                        <h1>$10.864</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='41' cy='41' r='37'></circle>  
+                        </svg>
+                        <div class="number">
+                        <p>44%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted"></small>
+            </div>
+     <!-----END OF encomes------->
+        </div>
+        <div class="recent-order">
+            <h2>Recent Orders</h2>
+            <table>    
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Product Number</th>
+                        <th>Payment</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    <tr>
+                        <td>iphone14</td>
+                        <td>684</td>
+                        <td>1200$</td>
+                        <td>pended</td>
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+       
+    </main>
+    </div>
+    
+</body>
+</html>
